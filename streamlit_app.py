@@ -1,5 +1,5 @@
 import streamlit as st
-iport pandas as pd
+import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.tree import DecisionTreeClassifier
