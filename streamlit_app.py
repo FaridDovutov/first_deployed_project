@@ -23,4 +23,4 @@ with col1:
   st.plotly_chart(fig1, use_container_width=True)
 with col2:
   fig2 = px.scatter(df, x="bill_length_mm", y="flipper_length_mm", color="species", title="Длина клюва vs Длина крыла")
-  st.plotly_char(fig2, use_container_width=True)
+  st.plotly_chart(fig2, use_container_width=True)
