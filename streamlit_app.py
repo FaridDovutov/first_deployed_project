@@ -66,7 +66,7 @@ user_input = pd.DataFrame([{
   'flipper_length_mm': flipper_length,
   'body_mass_g': body_mass
 }])
-user_encoded = encoder.transform(user_imput)
+user_encoded = encoder.transform(user_input)
 for col in ['bill_length_mm', 'bill_depth_mm', 'flipper_length_mm', 'body_mass_g']:
   user_encoded[col] = user_input[col].values
 
